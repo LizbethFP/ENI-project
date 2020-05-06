@@ -1,0 +1,17 @@
+<div class="card-group d-flex flex-wrap">
+  <div *ngFor="let product of productList; index as i" class="card w-md-25">
+    <img class="card-img-top" src="{{product.picture1}}" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title text-center">{{product.name}}</h5>
+      <p *ngFor="let item of product | keyvalue: originalOrder" class="card-text mb-md--5rem"><span
+          *ngIf="item.key !== 'name' && item.key !== 'CatchArea' && item.key !== 'Season' && item.key !== 'picture1'"
+          class="card-title">{{item.key}}: {{item.value}}</span></p>
+
+
+    </div>
+    <div class="card-footer card-footer--bgcolor">
+      <small class="text-muted font-weight-bold">{{ProductProperties.Season}}: {{product.Season}}
+      </small>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,19 @@
+.card-footer--bgcolor {
+  background-color: rgba(196, 206, 219, 0.2);
+}
+
+@media (min-width:768px) {
+  .card.w-md-25 {
+    flex: unset;
+    width: 25%;
+  }
+
+  .card-img-top {
+    height: 140px;
+  }
+
+  .mb-md--5rem:last-child {
+    margin-bottom: 5rem;
+
+  }
+}
