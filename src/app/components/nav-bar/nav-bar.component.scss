@@ -1,0 +1,29 @@
+$cyan: #00b2f0;
+$electric-blue: #87f7fe;
+$green-blue: rgba(19, 104, 178, 0.7);
+
+.bg-light-blue {
+  background-color: $cyan;
+  background-image:
+    linear-gradient($cyan, $electric-blue);
+}
+
+.navbar-light .navbar-toggler--border {
+  color: rgba(0, 0, 0, .5);
+  border-color: $green-blue;
+}
+
+.navbar-toggler-icon-try {
+  // TODO: ADD A HAMBURGER MENU!!!!
+  /* background-image: url(./../../assets/hamburger-menu.svg) */
+}
+
+.logo {
+  margin-right: 0rem;
+  width: 90px;
+
+  @media (min-width: 1024px) {
+    margin-right: 1rem;
+    width: 8%;
+  }
+}
