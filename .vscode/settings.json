@@ -1,0 +1,28 @@
+{
+    "files.autoSave": "off",
+    "todohighlight.keywords": [
+        {
+            "text": "ALERT",
+            "color": "#fff",
+            "backgroundColor": "red"
+        },
+        {
+            "text": "REMEMBER",
+            "color": "#fff",
+            "backgroundColor": "green"
+        },
+        {
+            "text": "NOTE",
+            "color": "#fff",
+            "backgroundColor": "grey"
+        }
+    ],
+    "editor.tabSize": 2,
+    "window.zoomLevel": 0,
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "[html]": {
+    },
+    "todohighlight.defaultStyle": {
+    
+    }
+}
