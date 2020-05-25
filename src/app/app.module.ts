@@ -1,6 +1,5 @@
-import { BrowserModule } from '@angular/platform-browser';
+import { BrowserModule, Title } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
 import { AppRoutingModule, routingComponents } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ModalModule } from 'ngx-bootstrap/modal';
@@ -24,6 +23,7 @@ import { CardGroupsComponent } from './components/card-groups/card-groups.compon
     ModalModule.forRoot(),
     CarouselModule.forRoot(),
   ],
+  providers: [Title],
   bootstrap: [AppComponent],
 })
 export class AppModule { }
