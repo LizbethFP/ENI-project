@@ -27,6 +27,121 @@ $purple-navy: #4E5382;
   }
 }
 
+@keyframes clip1 {
+  0% {
+    clip-path: polygon(0% -50%, 50% -50%, -50% 50%, -100% 50%);
+  }
+
+  100% {
+    clip-path: polygon(150% 50%, 200% 50%, 100% 150%, 50% 150%);
+  }
+}
+
+@keyframes clipa {
+  0% {
+    clip-path: polygon(-5% -55%, 55% -45%, -45% 55%, -95% 55%);
+  }
+
+  100% {
+    clip-path: polygon(150% 50%, 200% 50%, 100% 150%, 50% 150%);
+  }
+}
+
+@keyframes clip2 {
+  0% {
+    clip-path: polygon(50% -50%, 100% -50%, 200% 50%, 150% 50%);
+  }
+
+  100% {
+    clip-path: polygon(-100% 50%, -50% 50%, 50% 150%, 0% 150%);
+  }
+}
+
+@keyframes clipb {
+  0% {
+    clip-path: polygon(40% -60%, 100% -50%, 190% 40%, 150% 50%);
+  }
+
+  100% {
+    clip-path: polygon(-100% 50%, -50% 50%, 50% 150%, 0% 150%);
+  }
+}
+
+@keyframes clip3 {
+  0% {
+    clip-path: polygon(-100% -150%, -50% -150%, -150% -50%, -200% -50%);
+  }
+
+  100% {
+    clip-path: polygon(150% 50%, 200% 50%, 100% 150%, 50% 150%);
+  }
+}
+
+@keyframes clip4 {
+  0% {
+    clip-path: polygon(150% -150%, 200% -150%, 300% -50%, 250% -50%);
+  }
+
+  100% {
+    clip-path: polygon(-100% 50%, -50% 50%, 50% 150%, 0% 150%);
+  }
+}
+
+.clip {
+  filter: grayscale(0.2);
+  position: absolute;
+  top: 15%;
+  left: 5%;
+  width: 88%;
+  height: 65%;
+  background: url(./../../assets/blue-fishing-boat.jpg) no-repeat center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform-origin: center;
+
+  @media (min-width:768px) {
+    top: 13%;
+  }
+
+  @media (min-width:1024px) {
+    height: 85vh;
+    left: 2%;
+    top: 18%;
+    width: 91%;
+
+  }
+}
+
+#clip1 {
+  animation: clip1 4s linear infinite;
+}
+
+#clipa {
+  transform: scale(1.1, 1.1);
+  animation: clipa 9s linear infinite;
+}
+
+#clip2 {
+  transform: scale(1.12, 1.12);
+  animation: clip2 5s linear infinite;
+}
+
+#clipb {
+  transform: scale(1.14, 1.14);
+  animation: clipb 4s linear infinite;
+}
+
+#clip3 {
+  transform: scale(1.15, 1.15);
+  animation: clip3 7s linear infinite;
+}
+
+#clip4 {
+  transform: scale(1.13, 1.13);
+  animation: clip4 6s linear infinite;
+}
+
 .about-us {
   font-family: 'Titillium Web', sans-serif;
 }
@@ -41,6 +156,22 @@ $purple-navy: #4E5382;
   font-weight: 400;
   font-style: italic;
   font-size: large;
+}
+
+
+.mt-lg-separate {
+
+  margin-top: 128%;
+
+  @media (min-width:768px) {
+    margin-top: 90%;
+
+  }
+
+  @media (min-width:1024px) {
+    margin-top: 46%;
+  }
+
 }
 
 
