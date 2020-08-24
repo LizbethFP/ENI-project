@@ -9,7 +9,7 @@ The palette selection for the new website was taken from the company's logo colo
 ### Company Logo:
 ![logo](https://user-images.githubusercontent.com/32282183/90994386-dae1bb00-e5fb-11ea-99e2-aa5a286d5649.PNG)
 
-#### I provided client with 2 palette options:
+### While working closely with the client, I provided them with 2 palette options:
 ![Selected palette](https://user-images.githubusercontent.com/32282183/90994197-5e4edc80-e5fb-11ea-98a9-231bfdd0fda8.jpg)
 
 ## Protoype
