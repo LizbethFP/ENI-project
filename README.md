@@ -61,6 +61,11 @@ The new website was built and deployed with the Framework Angular and hosted thr
 ### Product Page new look - Tablet Version
 ![Products Page - Tablet](https://user-images.githubusercontent.com/32282183/90997757-be4a8080-e605-11ea-8f0d-0934c359d4e0.png)
 
+### cPanel Access
+The hosting was done through cPanel, where we can see the Primary Domain site and File Manager.
+![cPanel 1](https://user-images.githubusercontent.com/32282183/91004492-b1368d00-e617-11ea-9a55-c3f3549a7cef.JPG)
+![cPanel 2](https://user-images.githubusercontent.com/32282183/91004498-b267ba00-e617-11ea-8953-11560d98cd76.JPG)
+
 ## Author
 Lizbeth Felix Pena
 
