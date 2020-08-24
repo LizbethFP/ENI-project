@@ -60,3 +60,9 @@ The new website was built and deployed with the Framework Angular and hosted thr
 
 ### Product Page new look - Tablet Version
 ![Products Page - Tablet](https://user-images.githubusercontent.com/32282183/90997757-be4a8080-e605-11ea-8f0d-0934c359d4e0.png)
+
+## Author
+Lizbeth Felix Pena
+
+## Date
+15/06/2020
