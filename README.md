@@ -50,7 +50,7 @@ Sketch for the mobile and Tablet version where the navigation bar appears to be 
 
 ## Deployment
 
-The new website was built and deployed with the Framework Angular and hosted through cPanel.
+The new website was built and deployed with the Framework Angular and hosted through cPanel. This is the url to the site: https://negociosnacionales.com/
 
 ### Home Page new look - Desktop version
 ![home page](https://user-images.githubusercontent.com/32282183/90997752-bb4f9000-e605-11ea-990a-f5d80d46653f.png)
